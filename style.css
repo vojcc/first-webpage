@@ -64,7 +64,7 @@ nav a {
 
 .nav-links a:hover {
     transform: scale(1.15);
-    border: 2px solid #7B445D;;
+    border: 2px solid #7B445D;
 }
 
 .nav-links a {
@@ -155,8 +155,7 @@ nav a {
     flex-wrap: wrap;
 }
 
-
-.offer-box {
+.offer-list a {
     width: 30%;
     height: 150px;
     margin-right: 5%;
@@ -166,14 +165,20 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: .5s all;
+    border-radius: 15px;
 }
 
-.offer-box:hover {
+
+.offer-list a:hover {
     background-color: #7B345D;
     cursor: pointer;
+    transform: scale(1.2);
 }
 
-.offer-box:nth-of-type(3n) {
+.offer-list a:nth-of-type(3n) {
     margin-right: 0;
 }
 
